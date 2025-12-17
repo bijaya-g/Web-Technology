@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    background-color: hsl(13, 20%, 82%); /* butter yellow */
+    padding: 18px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Sections */
+.sections {
+    display: flex;
+    gap: 10px; /* small gap between sections */
+    margin: 0;
+    padding: 0 20px; /* optional: small padding on sides */
+}
+
+.section {
+    flex: 1;
+    height: 810px; /* 70% longer than original 300px */
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+/* Different light colors */
+.section1 {
+    background-color: #a2c6e1; /* light blue */
+}
+
+.section2 {
+    background-color: #e8f5e9; /* light green */
+}
+
+.section3 {
+    background-color: #fff8e1; /* light cream */
+}
+
+/* Footer */
+.footer {
+    background-color: hsl(13, 15%, 51%);;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+.bottom-bar {
+    background-color:hsl(12, 17%, 65%); /* darker than footer for contrast */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
